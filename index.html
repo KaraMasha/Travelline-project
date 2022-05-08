@@ -14,18 +14,22 @@
       <div class="main-logo">
         <img src="img/mainlogo.svg" alt="mainlogo">
       </div>
-      <div class="burger-menu">
-        <span></span>
-      </div>
       <nav class="top-bar-nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a class="btn" href="tel:+1(000)000000"><img src="img/phone.svg" alt="phone">+1 (000) 000 000</a></li>
-        </ul>
+        <button class="burger-menu" id="burger-button">
+          <span></span>
+        </button>
+        <div class="header-navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <a class="btn header" href="tel:+1(000)000000"><img src="img/phone.svg" alt="phone"><span>+1 (000) 000 000</span></a>
+        </div>
       </nav>
     </div>
   </header>
@@ -49,7 +53,7 @@
             </div>
           </div>
           <div class="main-right">
-            <div>
+            <div class="main-background-img">
               <img src="img/mainpic.png" alt="backgroundphoto">
             </div>
             <div class="box small">
@@ -357,6 +361,8 @@
       </div>
     </div>
   </footer>
+
+<script src="./script.js"></script>
 
 </body>
 </html>
