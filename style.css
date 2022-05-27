@@ -1414,11 +1414,7 @@ display: flex;
     grid-template-columns: 1fr 1fr;
   }
 
-  .features {
-  }
-
   .features:not(:last-child) {
-    /* margin-right: 40px; */
     margin-bottom: 20px;
   }
 
