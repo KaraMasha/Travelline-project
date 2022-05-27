@@ -1458,26 +1458,237 @@ display: flex;
     flex-direction: column;
   }
 
+  .latest-tour-text {
+    max-width: 100%;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+  }
 
+  .latest-tour-text h3 {
+    margin-bottom: 40px;
+  }
 
+  .latest-tour-text p {
+    text-align: center;
+  }
 
+  .latest-tour-text p:after {
+    bottom: 140px;
+  }
 
+  .video-section {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 
+  .video-section::after {
+    bottom: -20px;
+  }
 
+  .team-members {
+    padding-top: 57px;
+    padding-bottom: 40px;
+  }
 
+  .team-title p {
+    text-align: center;
+    margin-bottom: 140px;
+  }
 
+  .team-preview {
+    flex-direction: column;
+  }
 
+  .team-members .team-view {
+    margin-right: 0;
+    width: 100%;
+  }
 
+  .teacher-group .first {
+    height: 45%;
+    left: 40px;
+  }
 
+  .teacher-group .second {
+    height: 30%;
+  }
 
+  .teacher-group .third {
+    height: 30%;
+  }
 
+  .teacher-group .fifth {
+    height: 45%;
+    right: 10px;
+  }
 
+  .circles .circle-small-bottom {
+    bottom: -40px;
+  }
 
+  .circles .circle-big {
+    bottom: -85px;
+  }
 
+  .team-members .description {
+    margin-top: 100px;
+    width: 100%;
+  }
 
+  .team-members .description h2 {
+    text-align: center;
+  }
 
+  .choice-section {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
 
+  .choice-title p {
+    width: 80%;
+  }
 
+  .choice-features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-box:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .features-box {
+    width: 80%;
+  }
+
+  .features-img {
+    height: 60px;
+    width: 60px;
+    top: -35px;
+  }
+
+  .features-box h4 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+
+  .feedback {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .feedback .container {
+    flex-direction: column;
+  }
+
+  .feedback-left {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .feedback-title h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .feedback-title p {
+    text-align: center;
+    width: 100%;
+  font-size: 20px;
+  }
+
+  .feedback-input {
+    max-width: 100%;
+  }
+
+  .feedback-title {
+    margin-bottom: 25px;
+  }
+
+  .customer-photo img {
+    height: 500px;
+  }
+
+  .customer-photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .customer-box {
+    width: 70%;
+    padding: 20px 30px 25px 45px;
+  }
+
+  .customer-text p {
+    font-size: 19px;
+  }
+
+  .feedback-review {
+    padding-top: 15px;
+  }
+
+  .feedback-review span {
+    font-size: 18px;
+  }
+
+  .feedback-rate {
+    width: 27%;
+  }
+
+  .news-section {
+    padding-top: 50px;
+  }
+
+  .news-title {
+    margin-bottom: 60px;
+  }
+
+  .news-list {
+    flex-direction: column;
+  }
+
+  .main-news {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .main-news-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .main-news-image img {
+    margin: 0 auto;
+  }
+
+  .main-news .news-main-label {
+    padding-left: 30px;
+  }
+
+  .main-news .news-item h4 {
+    margin-bottom: 5px;
+  }
+
+  .news-image {
+    height: 30%;
+  }
+
+  .news-item p {
+    margin-bottom: 10px;
+  }
+
+  .side-news-title h5 {
+    padding-bottom: 15px;
+  }
+
+  .side-news-title p {
+    font-size: 15px;
+  }
 }
 
 
