@@ -1149,12 +1149,12 @@ display: flex;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 208px;
+  max-width: 208px;
   z-index: 10;
 }
 
 .main-logo.footer {
-  margin-bottom: 85px;
+  padding-bottom: 85px;
 }
 
 .main-logo img {
@@ -1391,11 +1391,47 @@ display: flex;
   .main-left {
     padding-right: 0;
     padding-bottom: 20px;
+    padding-top: 30px;
   }
 
   .main-left h1,
   .main-left p {
     text-align: center;
+  }
+
+  .main-left h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .main-left p {
+    margin-top: 30px;
+  }
+
+  .explore {
+    padding-top: 30px;
+    flex-direction: column;
+  }
+  
+  .explore-btn {
+    margin-right: 0;
+  }
+
+  .explore a {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .play-btn {
+    padding-top: 15px;
+  }
+
+  .btn.big {
+    padding: 15px 25px;
+  }
+
+  .play-btn img {
+    height: 55px;
   }
 
   .box {
@@ -1439,7 +1475,7 @@ display: flex;
   .back-item {
     width: calc(50% - 25px);
     min-height: 300px;
-  }
+  } 
 
   .back-item:not(:last-child) {
     margin-right: 50px;
@@ -1684,6 +1720,20 @@ display: flex;
 
   .side-news-title p {
     font-size: 15px;
+  }
+
+  .main-logo.footer {
+    flex-direction: column;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .main-logo img {
+    margin-right: 0;
+  }
+
+  .main-logo.top {
+    margin-right: 15px;
   }
 }
 
